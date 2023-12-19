@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `gde_int-alk-1`;
+
+USE `gde_int-alk-1`;
+
 CREATE TABLE IF NOT EXISTS posts (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
