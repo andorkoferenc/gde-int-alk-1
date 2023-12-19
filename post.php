@@ -1,3 +1,4 @@
+<?php require_once('login_check.php') ?>
 <!DOCTYPE html>
 <html>
 <head>

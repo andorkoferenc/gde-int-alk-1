@@ -1,3 +1,4 @@
+<?php require_once('login_check.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,7 +51,9 @@
                 $stmt->bindParam(':content', $content);
                 $stmt->execute();
 
-                echo '<span class="success">Sikeresen rögzítette a bejegyzést!</span>';
+                echo '<span class="success">Sikeresen rögzítette a bejegyzést!</span><br>';
+                echo '<a href="posts.php">A bejegyzések megtekintése.<a>';
+
             } else {
                 $errors[] = 'A cím mezőt kötelező kitölteni!';
             }
