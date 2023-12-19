@@ -1,11 +1,12 @@
-CREATE DATABASE IF NOT EXISTS `gde_int-alk-1`;
+CREATE DATABASE IF NOT EXISTS `gde_int-alk-1`
+     CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 USE `gde_int-alk-1`;
 
 CREATE TABLE IF NOT EXISTS posts (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    content TEXT,
+    title VARCHAR(255) COLLATE utf8mb4_general_ci NOT NULL,
+    content TEXT COLLATE utf8mb4_general_ci,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     modified_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
