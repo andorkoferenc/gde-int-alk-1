@@ -33,11 +33,11 @@ session_start();
 
             <?php if(isset($_SESSION['username'])): ?>
                 <li>
-                    <a href="#">Bejegyzések listázása</a>
+                    <a href="posts.php">Bejegyzések listázása</a>
                 </li>
 
                 <li>
-                    <a href="#">Új bejegyzés létrhozása</a>
+                    <a href="post_new.php">Új bejegyzés létrhozása</a>
                 </li>
                 <li>
                     <a href="logout.php">Kijelentezés</a>
