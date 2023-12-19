@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Bejegyzések</title>
 </head>
 <body>
     <nav>
