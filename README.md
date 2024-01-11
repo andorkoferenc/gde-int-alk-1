@@ -9,9 +9,9 @@ Készíts a tanult nyelven egy dinamikus weboldalt, a következő funkciókkal:
 - session kezelés bemutatása
 - adatbázis használata
 
-Session: az index oldalról lépjünk át a következő oldalra, ahol majd az adatbázis műveletet kell bemutatni. A beléptetést session kezeléssel oldjuk meg, a belépési adatok nem adatbázisból jönnek, hanem "be vannak drótozva":
-felhasználó: aaa
-jelszó: aaa
+Session: az index oldalról lépjünk át a következő oldalra, ahol majd az adatbázis műveletet kell bemutatni. A beléptetést session kezeléssel oldjuk meg, a belépési adatok nem adatbázisból jönnek, hanem "be vannak drótozva":<br>
+felhasználó: aaa<br>
+jelszó: aaa<br>
 
 A tartalmi oldal csak az indexről elérhető, a fenti azonosítók használatával!
 
